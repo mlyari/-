@@ -1,0 +1,51 @@
+body {
+    background-image: url(img1.akspic.ru-elektrik-televideniye-chernyy-uglerod-liniya-3840x2160.jpg);
+    background-size: cover;
+    margin: -10px;
+    padding: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12); /* мягкая тень */
+     display: inline-block;
+     object-fit: cover;
+    border: 2px solid #83849c; /* рамка вокруг изображения */
+}
+h1,h2,h3 {
+    font-size: 50px;
+    color: #8d8a9c;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    text-shadow: #000000 0px 0px 10px;
+}
+p {
+    font-size: 25px;
+    color:gray;
+    font-family: 'Segoe UI', 'Helvetica', sans-serif;
+    text-shadow: #000000 0px 0px 10px;
+    
+}
+li {
+    list-style: none;
+    margin-left: -50px;
+    font-size: 25px;
+    color: gray;
+    font-family: 'Segoe UI', 'Helvetica', sans-serif;
+    text-shadow: #000000 0px 0px 10px;
+}
+
+.card {
+    background: rgba(30, 30, 30, 0.3); /* тёмный прозрачный фон */
+    border-radius: 16px;
+    padding: 24px;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 480px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    border: 2px solid rgba(255, 255, 255, 0.2); /* полупрозрачная рамка */
+    backdrop-filter: blur(12px); /* блюр заднего фона */
+}
+
